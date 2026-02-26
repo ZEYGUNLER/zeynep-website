@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="tr">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,7 +13,9 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body class="antialiased font-sans text-gray-900">
-
+      <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-gray-800 text-white px-3 py-2 rounded-md z-50">
+        Ana İçeriğe Atla
+    </a>
     {{-- 
       🌈 ARKA PLAN GEÇİŞİ BURADA
       soft-lilac -> white -> warm-stone geçişi tüm sayfayı kapsar.
@@ -26,8 +28,9 @@
         <div class="absolute bottom-0 left-0 -ml-20 -mb-20 w-[500px] h-[500px] bg-stone-100 rounded-full blur-3xl opacity-60"></div>
 
         {{-- NAVİGASYON (Üst Menü) --}}
-       <nav class="absolute top-0 left-0 w-full z-50 p-6 md:px-12 flex justify-between items-center">
-    
+        <header class="absolute top-0 left-0 w-full z-50 p-6 md:px-12 flex justify-between items-center">
+       <nav aria-label="Ana Navigasyon" class="flex items-center justify-between items-center">
+            
     {{-- Sol: Logo --}}
     <a href="/" class="text-2xl font-serif font-bold text-gray-800 tracking-tighter hover:text-purple-700 transition">
         Zeynep.
@@ -63,6 +66,7 @@
         @endauth
     </div>
 </nav>
+    </header>
 
         {{-- KART RENKLERİ MANTIĞI --}}
         @php
@@ -75,8 +79,8 @@
         @endphp
 
         {{-- ANA İÇERİK --}}
-        <main class="relative z-10 pt-20">
-            
+        <main id="main-content" class="relative z-10 pt-20">
+               
             {{-- HERO SECTION (Başlık Alanı) --}}
             <section class="min-h-[60vh] flex flex-col justify-center items-center text-center px-4">
                 <div class="space-y-8 max-w-2xl animate-fade-in">
