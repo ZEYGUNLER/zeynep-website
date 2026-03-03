@@ -27,11 +27,13 @@ Projeyi yerel bilgisayarınızda çalıştırmak için:
    git clone [https://github.com/KULLANICI_ADIN/zeynep-website.git](https://github.com/KULLANICI_ADIN/zeynep-website.git)
 ---
 
-## LAB-3 CSS Kararlar� Raporu
+---
 
-Bu b�l�m, projenin responsive tasar�m s�recinde al�nan teknik kararlar� i�ermektedir.
+## LAB-3 CSS Kararları Raporu
 
-- **Design Tokens:** Renk paletinde soft-lilac ve charcoal tercih edilerek modern bir kontrast yakalanm��t�r. Bo�luklar i�in 'rem' birimleri kullan�larak tutarl�l�k sa�lanm��t�r.
-- **Tipografi:** Ba�l�klarda clamp() kullan�larak ak�c� (fluid) b�y�me sa�lanm��, b�ylece her cihazda okunabilirlik korunmu�tur.
-- **Layout:** Navigasyonda esneklik i�in **Flexbox**, i�erik kartlar� ve form yerle�iminde ise hizalama disiplini i�in **CSS Grid** yap�s� kullan�lm��t�r.
-- **Responsive:** Mobile-first yakla��m�yla, Tailwind'in md ve lg k�r�lma noktalar� �zerinden 3 farkl� ekran boyutu i�in optimizasyon yap�lm��t�r.
+Bu bölüm, projenin responsive tasarım sürecinde alınan teknik kararları içermektedir.
+
+* **Design Tokens:** Renk paletinde `soft-lilac` ve `charcoal` tercih edilerek modern bir kontrast yakalanmıştır. Boşluklar için `rem` birimleri kullanılarak tutarlılık sağlanmıştır.
+* **Tipografi:** Başlıklarda `clamp()` kullanılarak akıcı (fluid) büyüme sağlanmış, böylece her cihazda okunabilirlik korunmuştur.
+* **Layout:** Navigasyonda esneklik için **Flexbox**, içerik kartları ve form yerleşiminde ise hizalama disiplini için **CSS Grid** yapısı kullanılmıştır.
+* **Responsive:** Mobile-first yaklaşımıyla, Tailwind'in `md` ve `lg` kırılma noktaları üzerinden 3 farklı ekran boyutu için optimizasyon yapılmıştır.
