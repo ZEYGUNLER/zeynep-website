@@ -30,7 +30,10 @@
         {{-- NAVİGASYON (Üst Menü) --}}
         <header class="absolute top-0 left-0 w-full z-50 p-6 md:px-12 flex justify-between items-center">
        <nav aria-label="Ana Navigasyon" class="flex items-center justify-between items-center">
-            
+            <a href="{{ route('contact.show') }}" 
+   class="text-sm font-bold text-gray-600 hover:text-purple-700 transition">
+    İletişim
+</a>
     {{-- Sol: Logo --}}
     <a href="/" class="text-2xl font-serif font-bold text-gray-800 tracking-tighter hover:text-purple-700 transition">
         Zeynep.
