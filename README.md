@@ -20,4 +20,4 @@ Projeyi yerel bilgisayarınızda çalıştırmak için:
 
 1. Depoyu klonlayın:
    ```bash
-   git clone [https://github.com/KULLANICI_ADIN/zeynep-website.git](https://github.com/KULLANICI_ADIN/zeynep-website.git)
+   git clone [https://github.com/ZEYGUNLER/zeynep-website.git](https://github.com/ZEYGUNLER/zeynep-website.git)
