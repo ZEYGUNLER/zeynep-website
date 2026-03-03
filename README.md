@@ -1,14 +1,17 @@
 # ğŸŒ¿ Dijital BahÃ§e (Web)
 
 ## ğŸ“– Proje HakkÄ±nda
+
 "Dijital BahÃ§e", okuma deneyimini oyunlaÅŸtÄ±ran kiÅŸisel bir web platformudur. KullanÄ±cÄ±lar makaleleri okudukÃ§a profillerindeki bahÃ§e Ã§iÃ§eklenir ve dijital bir kÃ¼tÃ¼phane/bahÃ§e oluÅŸtururlar.
 
 ## ğŸ‘©â€ğŸ’» GeliÅŸtirici Bilgileri
+
 - **Ad Soyad:** Zeynep GÃ¼neÅŸ
 - **Ã–ÄŸrenci No:** 220541030
 - **BÃ¶lÃ¼m:** YazÄ±lÄ±m MÃ¼hendisliÄŸi
 
 ## ğŸ›  KullanÄ±lan Teknolojiler
+
 - **Framework:** Laravel 11
 - **VeritabanÄ±:** SQLite / MySQL
 - **TasarÄ±m:** Tailwind CSS
@@ -16,16 +19,19 @@
 - **Yerel Sunucu:** Laravel Herd
 
 ## ğŸš€ Kurulum TalimatlarÄ±
+
 Projeyi yerel bilgisayarÄ±nÄ±zda Ã§alÄ±ÅŸtÄ±rmak iÃ§in:
 
 1. Depoyu klonlayÄ±n:
    ```bash
    git clone [https://github.com/KULLANICI_ADIN/zeynep-website.git](https://github.com/KULLANICI_ADIN/zeynep-website.git)
 ---
-## LAB-3 CSS Kararları Raporu
-Bu bölüm, projenin responsive tasarım sürecinde alınan teknik kararları içermektedir.
 
-- **Design Tokens:** Renk paletinde soft-lilac ve charcoal tercih edilerek modern bir kontrast yakalanmıştır. Boşluklar için 'rem' birimleri kullanılarak tutarlılık sağlanmıştır.
-- **Tipografi:** Başlıklarda clamp() kullanılarak akıcı (fluid) büyüme sağlanmış, böylece her cihazda okunabilirlik korunmuştur.
-- **Layout:** Navigasyonda esneklik için **Flexbox**, içerik kartları ve form yerleşiminde ise hizalama disiplini için **CSS Grid** yapısı kullanılmıştır.
-- **Responsive:** Mobile-first yaklaşımıyla, Tailwind'in md ve lg kırılma noktaları üzerinden 3 farklı ekran boyutu için optimizasyon yapılmıştır.
+## LAB-3 CSS Kararlarï¿½ Raporu
+
+Bu bï¿½lï¿½m, projenin responsive tasarï¿½m sï¿½recinde alï¿½nan teknik kararlarï¿½ iï¿½ermektedir.
+
+- **Design Tokens:** Renk paletinde soft-lilac ve charcoal tercih edilerek modern bir kontrast yakalanmï¿½ï¿½tï¿½r. Boï¿½luklar iï¿½in 'rem' birimleri kullanï¿½larak tutarlï¿½lï¿½k saï¿½lanmï¿½ï¿½tï¿½r.
+- **Tipografi:** Baï¿½lï¿½klarda clamp() kullanï¿½larak akï¿½cï¿½ (fluid) bï¿½yï¿½me saï¿½lanmï¿½ï¿½, bï¿½ylece her cihazda okunabilirlik korunmuï¿½tur.
+- **Layout:** Navigasyonda esneklik iï¿½in **Flexbox**, iï¿½erik kartlarï¿½ ve form yerleï¿½iminde ise hizalama disiplini iï¿½in **CSS Grid** yapï¿½sï¿½ kullanï¿½lmï¿½ï¿½tï¿½r.
+- **Responsive:** Mobile-first yaklaï¿½ï¿½mï¿½yla, Tailwind'in md ve lg kï¿½rï¿½lma noktalarï¿½ ï¿½zerinden 3 farklï¿½ ekran boyutu iï¿½in optimizasyon yapï¿½lmï¿½ï¿½tï¿½r.
