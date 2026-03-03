@@ -21,3 +21,11 @@ Projeyi yerel bilgisayarÄ±nÄ±zda Ã§alÄ±ÅŸtÄ±rmak iÃ§in:
 1. Depoyu klonlayÄ±n:
    ```bash
    git clone [https://github.com/KULLANICI_ADIN/zeynep-website.git](https://github.com/KULLANICI_ADIN/zeynep-website.git)
+---
+## LAB-3 CSS Kararlarý Raporu
+Bu bölüm, projenin responsive tasarým sürecinde alýnan teknik kararlarý içermektedir.
+
+- **Design Tokens:** Renk paletinde soft-lilac ve charcoal tercih edilerek modern bir kontrast yakalanmýþtýr. Boþluklar için 'rem' birimleri kullanýlarak tutarlýlýk saðlanmýþtýr.
+- **Tipografi:** Baþlýklarda clamp() kullanýlarak akýcý (fluid) büyüme saðlanmýþ, böylece her cihazda okunabilirlik korunmuþtur.
+- **Layout:** Navigasyonda esneklik için **Flexbox**, içerik kartlarý ve form yerleþiminde ise hizalama disiplini için **CSS Grid** yapýsý kullanýlmýþtýr.
+- **Responsive:** Mobile-first yaklaþýmýyla, Tailwind'in md ve lg kýrýlma noktalarý üzerinden 3 farklý ekran boyutu için optimizasyon yapýlmýþtýr.

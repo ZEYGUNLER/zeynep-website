@@ -5,6 +5,18 @@ use App\Http\Controllers\CommentController;      // ✅ Yorumlar için
 use App\Http\Controllers\PostProgressController; // ✅ Çiçek ekmek için
 use App\Models\Post;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactController;
+
+
+
+
+
+Route::get('/iletisim', function () {
+    return view('contact');
+})->name('contact.show');
+
+Route::post('/iletisim', [ContactController::class, 'store'])
+    ->name('contact.store');
 
 // 1. ANASAYFA (Yazıları Listeleme)
 Route::get('/', function () {
@@ -43,3 +55,9 @@ Route::get('/posts/{post}', function (Post $post) {
 })->name('posts.show');
 
 require __DIR__.'/auth.php';
+Route::get('/iletisim', function () {
+    return view('contact');
+})->name('contact.show');
+
+Route::post('/iletisim', [ContactController::class, 'store'])
+    ->name('contact.store');
